@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+   font-family: 'Montserrat', sans-serif;;
+}
+section{
+    margin:30px 0px;
+}
+
+.display-flex{
+    display: flex;
+}
+
+#welcome-part{
+    margin-top:30px;
+    
+}
+
+.content-pannel{
+    width: 50%;
+    padding: 80px 120px 60px 120px;
+}
+.h1{
+    font-size: 3rem;
+    color:#575757;
+    text-transform: capitalize;
+    font-weight: 600;
+    line-height: 4rem;
+    text-shadow: #ddd;
+}
+.color-tomato{
+    color:tomato;
+}
+.pera{
+    margin-bottom: 30px;
+    margin-top:20px;
+    color:rgb(73, 64, 64);
+    padding:0px 60px 0px 0px;
+    letter-spacing: 1px;
+    line-height: 25px;
+    font-size: 15px;
+    
+
+}
+.buttons{
+    color:white;
+    background:linear-gradient(orange,tomato);
+    padding:13px 20px 13px 20px;
+    text-decoration: none;
+    border-radius:20px;
+    font-size: 14px;
+}
+
+
+
+
+
+
+.image-pannel{
+    width: 50%;
+}
+.image-pannel img{
+width: 80%;
+padding-left: 40px;
+}
+.about-img img{
+    width: 61%;
+    padding: 30px 207px 0px 10px;
+    float: right;
+}
+
+#about-us{
+    background-image: url(img/shapes/Frame\ 59.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+    
+}
+#about-us .content-pannel{
+    padding: 81px 20px 60px 28px;
+}
+#about-us .h1{
+    font-size: 2.5rem;;
+}
+#about-us .pera{
+    padding-right: 156px;
+}
